@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	</head>
+	<body>
+		<input onmouseout="font()" type="text" id="text" value="">
+		<div id="result">RENUKA</div>
+		<script>
+			function font(){
+			let input = document.getElementById('text').value;
+			let div = document.getElementById('result');
+			div.style.fontSize =`${input}px`;  
+			};
+		</script>
+	</body>
+</html>
